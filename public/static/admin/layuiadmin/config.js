@@ -101,6 +101,24 @@ layui.define(['laytpl', 'layer', 'element', 'util'], function(exports){
       },{
         header: '#393D49'
         ,alias: 'classic-black-header' //经典黑头
+      },{
+        main: '#50314F'
+        ,logo: '#50314F'
+        ,selected: '#7A4D7B'
+        ,header: '#50314F'
+        ,alias: 'purple-red-header' //紫红头
+      },{
+        main: '#28333E'
+        ,logo: '#28333E'
+        ,selected: '#AA3130'
+        ,header: '#AA3130'
+        ,alias: 'fashion-red-header' //时尚红头
+      },{
+        main: '#28333E'
+        ,logo: '#009688'
+        ,selected: '#009688'
+        ,header: '#009688'
+        ,alias: 'green-header' //墨绿头
       }]
       
       //初始的颜色索引，对应上面的配色方案数组索引

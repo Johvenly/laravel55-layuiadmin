@@ -31,6 +31,12 @@ Route::group(['namespace'=>'Admin','prefix'=>'admin','middleware'=>'auth'],funct
     Route::get('/index','IndexController@index')->name('admin.index');
     Route::get('/index1','IndexController@index1')->name('admin.index1');
     Route::get('/index2','IndexController@index2')->name('admin.index2');
+    Route::get('/baseinfo', function() {
+        return view('admin.index.baseinfo');
+    });
+    Route::get('/password', function() {
+        return view('admin.index.password');
+    });
     //图标
     Route::get('icons','IndexController@icons')->name('admin.icons');
 });
